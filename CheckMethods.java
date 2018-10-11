@@ -8,11 +8,27 @@ package cos;
 /**
  *
  * @author Diotr
- */
-public class CheckMethods {
-    public static void check(int godzinyalarm, int minutyalarm, int sekundyalarm ){
+ */public class CheckMethods {
+       int alhour=0;
+       int alminute=0;
+       int alsec=0;
        
-       if((godzinyalarm==21)&&(minutyalarm==13)&&(sekundyalarm==23)){
+       
+       
+     public static void setAlarm (){
+       
+    
+        System.out.println("Podaj godzinę alarmu: ");
+       
+    
+    }
+    
+     public static void check(int godzinyalarm, int minutyalarm, int sekundyalarm ){
+        
+   
+       
+
+       if((godzinyalarm==alhour)&&(minutyalarm==alminute)&&(sekundyalarm==alsec)){
            System.out.println("dzyn!");
            
        }
@@ -20,5 +36,5 @@ public class CheckMethods {
            System.out.println("czekaj");
        }
        }
-    
+   
 }
